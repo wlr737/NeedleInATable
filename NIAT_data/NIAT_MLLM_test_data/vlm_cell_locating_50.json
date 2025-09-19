@@ -1,0 +1,552 @@
+[
+    {
+        "item_id": "NIAT_VLM_location_based_data_2686",
+        "table_id": "WTQ_transpose_24",
+        "cell_location": {
+            "row_id": 5,
+            "col_id": 21
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 5 and the column_ID is 21.\n\n## Your Response:\n",
+        "ground_truth": "Re-elected"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_3313",
+        "table_id": "WTQ_transpose_229",
+        "cell_location": {
+            "row_id": 3,
+            "col_id": 18
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 3 and the column_ID is 18.\n\n## Your Response:\n",
+        "ground_truth": "Cork"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_11513",
+        "table_id": "WTQ_204-csv_356",
+        "cell_location": {
+            "row_id": 15,
+            "col_id": 1
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 15 and the column_ID is 1.\n\n## Your Response:\n",
+        "ground_truth": "Yolo"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_4645",
+        "table_id": "HiTab_137_totto16571-1",
+        "cell_location": {
+            "row_id": 16,
+            "col_id": 4
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 16 and the column_ID is 4.\n\n## Your Response:\n",
+        "ground_truth": "deniz mehmet"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_711",
+        "table_id": "WTQ_transpose_174",
+        "cell_location": {
+            "row_id": 2,
+            "col_id": 9
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 2 and the column_ID is 9.\n\n## Your Response:\n",
+        "ground_truth": "Rutland"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_8233",
+        "table_id": "WTQ_203-csv_296",
+        "cell_location": {
+            "row_id": 43,
+            "col_id": 2
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 43 and the column_ID is 2.\n\n## Your Response:\n",
+        "ground_truth": "700114300000000000014.3"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_11487",
+        "table_id": "WTQ_203-csv_36",
+        "cell_location": {
+            "row_id": 1,
+            "col_id": 2
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 1 and the column_ID is 2.\n\n## Your Response:\n",
+        "ground_truth": "Locality"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_6256",
+        "table_id": "HiTab_1338",
+        "cell_location": {
+            "row_id": 20,
+            "col_id": 10
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 20 and the column_ID is 10.\n\n## Your Response:\n",
+        "ground_truth": "5"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_3208",
+        "table_id": "WTQ_transpose_107",
+        "cell_location": {
+            "row_id": 1,
+            "col_id": 3
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 1 and the column_ID is 3.\n\n## Your Response:\n",
+        "ground_truth": "London"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_12329",
+        "table_id": "WTQ_203-csv_17",
+        "cell_location": {
+            "row_id": 42,
+            "col_id": 8
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 42 and the column_ID is 8.\n\n## Your Response:\n",
+        "ground_truth": ""
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_4142",
+        "table_id": "HiTab_137_totto16629-4",
+        "cell_location": {
+            "row_id": 2,
+            "col_id": 7
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 2 and the column_ID is 7.\n\n## Your Response:\n",
+        "ground_truth": "goals"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_3717",
+        "table_id": "HiTab_127_totto15135-0",
+        "cell_location": {
+            "row_id": 5,
+            "col_id": 8
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 5 and the column_ID is 8.\n\n## Your Response:\n",
+        "ground_truth": "0"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_11345",
+        "table_id": "WTQ_204-csv_850",
+        "cell_location": {
+            "row_id": 24,
+            "col_id": 5
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 24 and the column_ID is 5.\n\n## Your Response:\n",
+        "ground_truth": "1972–80"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_9646",
+        "table_id": "WTQ_204-csv_476",
+        "cell_location": {
+            "row_id": 7,
+            "col_id": 5
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 7 and the column_ID is 5.\n\n## Your Response:\n",
+        "ground_truth": "0-6-0TG"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_10250",
+        "table_id": "WTQ_204-csv_102",
+        "cell_location": {
+            "row_id": 22,
+            "col_id": 1
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 22 and the column_ID is 1.\n\n## Your Response:\n",
+        "ground_truth": "Tiyas Military Airbase"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_8811",
+        "table_id": "WTQ_204-csv_299",
+        "cell_location": {
+            "row_id": 38,
+            "col_id": 3
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 38 and the column_ID is 3.\n\n## Your Response:\n",
+        "ground_truth": "Crawford County"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_5130",
+        "table_id": "HiTab_145_totto17439-0",
+        "cell_location": {
+            "row_id": 2,
+            "col_id": 1
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 2 and the column_ID is 1.\n\n## Your Response:\n",
+        "ground_truth": "club"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_7925",
+        "table_id": "HiTab_133_totto16241-4",
+        "cell_location": {
+            "row_id": 1,
+            "col_id": 3
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 1 and the column_ID is 3.\n\n## Your Response:\n",
+        "ground_truth": "league"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_7165",
+        "table_id": "HiTab_1078",
+        "cell_location": {
+            "row_id": 6,
+            "col_id": 6
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 6 and the column_ID is 6.\n\n## Your Response:\n",
+        "ground_truth": "6,042"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_8429",
+        "table_id": "WTQ_203-csv_273",
+        "cell_location": {
+            "row_id": 8,
+            "col_id": 1
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 8 and the column_ID is 1.\n\n## Your Response:\n",
+        "ground_truth": "Kita-ku, Okayama"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_1193",
+        "table_id": "WTQ_transpose_55",
+        "cell_location": {
+            "row_id": 5,
+            "col_id": 19
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 5 and the column_ID is 19.\n\n## Your Response:\n",
+        "ground_truth": "5,420"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_12431",
+        "table_id": "WTQ_204-csv_793",
+        "cell_location": {
+            "row_id": 4,
+            "col_id": 2
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 4 and the column_ID is 2.\n\n## Your Response:\n",
+        "ground_truth": "Canton"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_3389",
+        "table_id": "WTQ_transpose_160",
+        "cell_location": {
+            "row_id": 7,
+            "col_id": 13
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 7 and the column_ID is 13.\n\n## Your Response:\n",
+        "ground_truth": "World Bowl '96"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_2993",
+        "table_id": "WTQ_transpose_237",
+        "cell_location": {
+            "row_id": 3,
+            "col_id": 11
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 3 and the column_ID is 11.\n\n## Your Response:\n",
+        "ground_truth": "William Tell and Son"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_6015",
+        "table_id": "AIT-QA_tab-34",
+        "cell_location": {
+            "row_id": 29,
+            "col_id": 2
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 29 and the column_ID is 2.\n\n## Your Response:\n",
+        "ground_truth": ""
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_1031",
+        "table_id": "WTQ_transpose_135",
+        "cell_location": {
+            "row_id": 4,
+            "col_id": 22
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 4 and the column_ID is 22.\n\n## Your Response:\n",
+        "ground_truth": "347"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_2440",
+        "table_id": "WTQ_transpose_214",
+        "cell_location": {
+            "row_id": 8,
+            "col_id": 3
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 8 and the column_ID is 3.\n\n## Your Response:\n",
+        "ground_truth": "12.1%"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_11240",
+        "table_id": "WTQ_204-csv_837",
+        "cell_location": {
+            "row_id": 6,
+            "col_id": 4
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 6 and the column_ID is 4.\n\n## Your Response:\n",
+        "ground_truth": "1.0\n1.0"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_3843",
+        "table_id": "HiTab_126_totto15029-0",
+        "cell_location": {
+            "row_id": 32,
+            "col_id": 9
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 32 and the column_ID is 9.\n\n## Your Response:\n",
+        "ground_truth": "23"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_5882",
+        "table_id": "HiTab_139_totto16787-2",
+        "cell_location": {
+            "row_id": 13,
+            "col_id": 14
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 13 and the column_ID is 14.\n\n## Your Response:\n",
+        "ground_truth": "37"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_9358",
+        "table_id": "WTQ_203-csv_121",
+        "cell_location": {
+            "row_id": 21,
+            "col_id": 2
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 21 and the column_ID is 2.\n\n## Your Response:\n",
+        "ground_truth": "DF"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_3193",
+        "table_id": "WTQ_transpose_92",
+        "cell_location": {
+            "row_id": 6,
+            "col_id": 14
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 6 and the column_ID is 14.\n\n## Your Response:\n",
+        "ground_truth": "College Station A&M Consolidated"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_11803",
+        "table_id": "WTQ_204-csv_524",
+        "cell_location": {
+            "row_id": 7,
+            "col_id": 4
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 7 and the column_ID is 4.\n\n## Your Response:\n",
+        "ground_truth": "9th"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_3494",
+        "table_id": "HiTab_13_totto1475-1",
+        "cell_location": {
+            "row_id": 14,
+            "col_id": 7
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 14 and the column_ID is 7.\n\n## Your Response:\n",
+        "ground_truth": "1"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_10618",
+        "table_id": "WTQ_203-csv_569",
+        "cell_location": {
+            "row_id": 45,
+            "col_id": 3
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 45 and the column_ID is 3.\n\n## Your Response:\n",
+        "ground_truth": "SB(rs)bc"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_9787",
+        "table_id": "WTQ_203-csv_138",
+        "cell_location": {
+            "row_id": 36,
+            "col_id": 4
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 36 and the column_ID is 4.\n\n## Your Response:\n",
+        "ground_truth": "Finland"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_12215",
+        "table_id": "WTQ_203-csv_383",
+        "cell_location": {
+            "row_id": 1,
+            "col_id": 2
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 1 and the column_ID is 2.\n\n## Your Response:\n",
+        "ground_truth": "Date"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_10417",
+        "table_id": "WTQ_204-csv_788",
+        "cell_location": {
+            "row_id": 29,
+            "col_id": 2
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 29 and the column_ID is 2.\n\n## Your Response:\n",
+        "ground_truth": "7"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_286",
+        "table_id": "WTQ_transpose_194",
+        "cell_location": {
+            "row_id": 1,
+            "col_id": 6
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 1 and the column_ID is 6.\n\n## Your Response:\n",
+        "ground_truth": "05 !5"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_12479",
+        "table_id": "WTQ_204-csv_650",
+        "cell_location": {
+            "row_id": 22,
+            "col_id": 1
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 22 and the column_ID is 1.\n\n## Your Response:\n",
+        "ground_truth": "1993"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_9791",
+        "table_id": "WTQ_203-csv_138",
+        "cell_location": {
+            "row_id": 39,
+            "col_id": 1
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 39 and the column_ID is 1.\n\n## Your Response:\n",
+        "ground_truth": "38"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_11870",
+        "table_id": "WTQ_204-csv_506",
+        "cell_location": {
+            "row_id": 26,
+            "col_id": 2
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 26 and the column_ID is 2.\n\n## Your Response:\n",
+        "ground_truth": "Pallacanestro Messina"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_3232",
+        "table_id": "WTQ_transpose_64",
+        "cell_location": {
+            "row_id": 1,
+            "col_id": 11
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 1 and the column_ID is 11.\n\n## Your Response:\n",
+        "ground_truth": "9"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_11713",
+        "table_id": "WTQ_203-csv_531",
+        "cell_location": {
+            "row_id": 17,
+            "col_id": 6
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 17 and the column_ID is 6.\n\n## Your Response:\n",
+        "ground_truth": "1,008,000"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_3447",
+        "table_id": "HiTab_113_55_fs17-ib-19314-tab008",
+        "cell_location": {
+            "row_id": 11,
+            "col_id": 6
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 11 and the column_ID is 6.\n\n## Your Response:\n",
+        "ground_truth": "0"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_9087",
+        "table_id": "WTQ_203-csv_601",
+        "cell_location": {
+            "row_id": 20,
+            "col_id": 6
+        },
+        "table_structure": "vertical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 20 and the column_ID is 6.\n\n## Your Response:\n",
+        "ground_truth": "5,630"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_6864",
+        "table_id": "HiTab_1258",
+        "cell_location": {
+            "row_id": 21,
+            "col_id": 5
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 21 and the column_ID is 5.\n\n## Your Response:\n",
+        "ground_truth": ""
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_6985",
+        "table_id": "HiTab_100_totto11809-4",
+        "cell_location": {
+            "row_id": 13,
+            "col_id": 9
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 13 and the column_ID is 9.\n\n## Your Response:\n",
+        "ground_truth": "0"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_7745",
+        "table_id": "HiTab_144_totto17425-4",
+        "cell_location": {
+            "row_id": 11,
+            "col_id": 5
+        },
+        "table_structure": "hierarchical",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 11 and the column_ID is 5.\n\n## Your Response:\n",
+        "ground_truth": "0"
+    },
+    {
+        "item_id": "NIAT_VLM_location_based_data_221",
+        "table_id": "WTQ_transpose_259",
+        "cell_location": {
+            "row_id": 2,
+            "col_id": 8
+        },
+        "table_structure": "horizontal",
+        "input_prompt": "Read the table image carefully and retrieve the value from a specified cell, based on a given row ID and a column ID.\n\nLet's think step by step and then output a final answer in the following JSON format:\n```json\n{\n    \"row_ID\": \"m\", \n    \"column_ID\": \"n\", \n    \"cell_value\": \"<Corresponding Cell Value>\"\n}\n```\n\nPlease note:\n\n•\tRow and column IDs start from 1.\n•\tThe header row is considered as the first row, with a row_ID of 1, so ensure you include it when locating the target row.\n•\tIf the target cell is empty, the cell_value should be an empty string (\"\").\n\nNow, retrieve the cell value at the position where the row_ID is 2 and the column_ID is 8.\n\n## Your Response:\n",
+        "ground_truth": "Ninna Nedu Repu"
+    }
+]
