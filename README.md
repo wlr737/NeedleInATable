@@ -19,7 +19,7 @@ We also introduce a **Strong2Weak** data synthesis method, using GPT-4o to gener
 
 > **Note:** Due to the massive size of the original QA (Question-Answer) dataset (up to 287K questions), we have uploaded **all original raw tables** but only a **random sample of the QA pairs** in this repository for demonstration and testing purposes. 
 >
-> If you require the full training/testing dataset, please refer to the instructions in the `data/` folder or contact the authors.
+> If you require the full training/testing dataset, please contact the authors.
 
 ## 📂 Project Structure
 
@@ -66,7 +66,5 @@ If you use this code or dataset in your research, please cite our paper:
 For inquiries regarding the full dataset or the codebase, please contact:
 
 *   **Lanrui Wang:** oliveerwang@tencent.com
-*   **Mingyu Zheng:** zhengmingyu@iie.ac.cn
-*   **Zheng Lin:** linzheng@iie.ac.cn
 
 **Paper Link:** [arXiv:2504.06560](https://arxiv.org/abs/2504.06560)
