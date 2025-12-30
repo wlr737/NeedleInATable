@@ -1,7 +1,3 @@
-Here is the updated `README.md` tailored to your GitHub project. I have added the **Project Structure Analysis** and the **Data Disclaimer** as requested.
-
-***
-
 # NEEDLEINATABLE: Exploring Long-Context Capability of Large Language Models towards Long-Structured Tables
 
 [![arXiv](https://img.shields.io/badge/arXiv-2504.06560-b31b1b.svg)](https://arxiv.org/abs/2504.06560)
